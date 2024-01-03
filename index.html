@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="WeatherStyle.css">
+</head>
+<body>
+    <div class="mdiv">
+          <div class="card">
+            <h1 class="head">Weather  Forecast</h1>
+            <div class="ip">      
+                <form action="">
+                  <input type="text" name="city" placeholder="Enter city name....." autofocus>
+                  <!-- Add a name attribute and a placeholder for user guidance -->
+                  <button>
+                      <img src="https://static.vecteezy.com/system/resources/previews/017/339/098/non_2x/search-icon-3d-free-png.png" alt="" height="30px" width="50px" class="img">
+                  </button>
+              </form>   
+            </div>
+
+            <div class="wea">
+              <img src="https://cdn-icons-png.flaticon.com/512/3721/3721962.png" alt="weather" height="150px" width="150px">
+            </div>
+
+            <div class="ct">
+              <h2 class="head">City name</h2>
+              <div class="head deg"><h3>29 °C</h3></div>       
+            </div>
+
+            <div class="btm">
+              <div>
+                <p class="head">Humidity</p>
+                <div class="hm">
+                <h6 class="head left">100%</h6>
+                </div>
+              </div>
+              
+              <div> 
+                <p class="head">Wind</p>
+                <div class="wi">
+                  <h6 class="head">12.3 km/hr</h6>
+                  </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <script src="WeatherScript.js"></script>
+</body>
+</html>
+
